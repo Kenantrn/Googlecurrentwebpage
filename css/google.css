@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+/* google logosu */
+.img{
+    height: 92px;
+    width:  272px;
+    text-align: center;
+    margin: 118px auto 0 auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* HEADERf */
+
+.google-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.google-header a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+}
+
+.google-header a:hover {
+  text-decoration: underline;
+}
+
+
+/* Google uygulamları */
+.apps-button {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+/* profil simgesi */
+.profile-photo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.dots-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 4px);
+  grid-gap: 4px;
+}
+
+.dots-grid span {
+  width: 4px;
+  height: 4px;
+  background-color: black;
+  border-radius: 50%;
+  display: block;
+}
+
+.google-logo {
+  width: 272px;
+  margin: 80px 0 30px 0;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 5px 10px;
+  width: 600px;
+  max-width: 90%;
+  transition: box-shadow 0.2s ease;
+}
+
+.search-box:focus-within {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  padding: 10px 10px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.buttons button {
+  font-size: 14px;
+  margin: 5px;
+  padding: 10px 20px;
+  background: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: #f1f3f4;
+
+
+}
+
+/* Footer'ın kendisi */
+.google-footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 97.5%;
+    padding: 10px 20px 15px 20px;
+    background-color: #dddd;
+    border-top: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+}
+
+/* Sol kısım */
+.google-footer-0 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+/* Orta kısım */
+.google-footer-1 {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+}
+
+/* Sağ kısım */
+.google-footer-2 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+/* Link stilleri */
+.google-footer-container a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
