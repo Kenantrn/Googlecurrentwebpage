@@ -1,5 +1,5 @@
-# Google 1998 Arayüzü
-
+<<<<<<< HEAD
+# Google Current Web Page
 Bu proje, Google'ın güncel ana sayfa tasarımını HTML ve CSS kullanarak yeniden oluşturuldu.
 
 ## İçerik
@@ -20,3 +20,6 @@ Bu proje, Google'ın güncel ana sayfa tasarımını HTML ve CSS kullanarak yeni
 ## Lisans
 
 Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
+=======
+# Googlecurrentwebpage
+>>>>>>> 8474ba85908792152654c966d68a76eae8e94be5
